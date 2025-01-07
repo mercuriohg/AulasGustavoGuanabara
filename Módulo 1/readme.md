@@ -1,5 +1,5 @@
 
-# Módulo 1
+# 💻 Módulo 1
 
 No Módulo 1 aprendemos basicamente a base de formatação de textos e links. Como exemplo de parágrafos, quebras de linhas, cabeçalhos, símbolos, criação e exportação de links, etc. Esse curso ajudará muito na vida que quero levar, por isso, argadeço imensamente ao professor Gustavo Guanabara que traz esse conhecimento para milhares de alunos em todo o Brasil.
 
