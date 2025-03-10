@@ -1,0 +1,117 @@
+
+@charset "UTF-8";
+@font-face {
+    font-family: Idroid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+body{
+    background-color: aquamarine;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    width: 80%; 
+    margin: 10px auto; 
+    padding: 15px; 
+    border-radius: 5px; 
+    text-align: justify;
+    line-height: 1.6; 
+}
+a{
+    text-decoration: none;
+    color:rgb(245, 237, 237);
+    margin: 20px;
+    font-family: Idroid;
+}
+h1{
+    margin: 30px;
+    font-family: Idroid;
+}
+p>a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+img{
+    margin-top: 50px;
+}
+nav{
+    background-color: green;
+    margin-top: 0;
+}
+main{
+    margin: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 7px 2px gray;
+}
+.alinha{
+    margin-top: 10px;
+    text-align: center;
+}
+.estilo{
+    margin:0px;
+    text-align: center;
+    font-family: Idroid;
+    background-image: linear-gradient(to right, limegreen, rgb(85, 199, 85),rgb(115, 194, 115), white);
+}
+.cabecalho{
+    padding: 10px;
+    margin:0;
+    margin-top: 0;
+    color: rgb(7, 7, 7);
+    background-color: green;
+}
+.materia{
+    margin-top: 40px;
+}
+a.estilo:hover{
+    padding: 5px;
+    background-color:rgb(35, 68, 35);
+}
+.caixaduvida>h3{
+    color: white;
+    background-color: rgb(38, 196, 38);
+}
+.caixaduvida{
+    text-align: center;
+    margin: 200px;
+    background-color: rgb(60, 199, 25);
+}
+footer{
+    margin: 0;
+    padding: 5px; 
+    background-color: green;
+    text-align: center;
+}
+iframe{
+    box-shadow: 2px 2px 7px gray;
+    margin-top: 50px;
+}
+ul {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
+    list-style: none; 
+    padding: 0;
+    width: 50%; 
+    margin: auto;
+}
+@media(min-width: 320px){
+    .caixaduvida>h3{
+        background-color: green;
+    }
+    .caixaduvida{
+        padding: 0;
+        margin: 10px;
+        background-color: rgb(60, 199, 25);
+    }
+    iframe{
+        width: 400px;
+        margin: 10px;
+    }
+    main{
+        margin: 30px;
+    }
+}
