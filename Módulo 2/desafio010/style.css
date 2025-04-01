@@ -73,19 +73,20 @@ a:hover{
 }
 h3{
     margin: 0;
+    padding: 0;
     color: white;
-    background-color: rgb(38, 196, 38);
+    background-color: rgb(76, 180, 76);
 }
 .caixaduvida{
     margin:10px;
     padding: 10px;
     text-align: center;
     box-shadow: 3px 4px 8px gray;
-    background-color: rgb(60, 199, 25);
+    background-color: rgb(77, 207, 73);
 }
 footer{
     padding: 1px; 
-    background-color: rgb(120, 233, 120);
+    background-color: rgb(17, 221, 17);
     text-align: center;
 }
 iframe{
@@ -104,12 +105,12 @@ ul {
 }
 @media(max-width: 500px){
     .caixaduvida>h3{
-        background-color: green;
+        background-color: rgb(76, 180, 76);
     }
     .caixaduvida{
         padding: 0;
         margin: 10px;
-        background-color: rgb(60, 199, 25);
+        background-color: rgb(77, 207, 73);
     }
     iframe{
         width: 400px;
@@ -118,4 +119,20 @@ ul {
     main{
         margin:  30px;
     }
+}
+@media(max-width: 1270px){
+    .caixaduvida>h3{
+        background-color: rgb(76, 180, 76);
+        .caixaduvida{
+        padding: 0;
+        margin: 10px;
+        background-color: rgb(77, 207, 73);    }
+    iframe{
+        width: 400px;
+        margin: 10px;
+    }
+    main{
+        margin:  30px;
+    }
+}
 }
