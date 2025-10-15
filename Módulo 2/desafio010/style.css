@@ -22,12 +22,12 @@ a{
     text-decoration: none;
     color:rgb(245, 237, 237);
     margin: 20px;
-    font-family: Idroid;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1{
     margin: 30px;
     padding: 10px;
-    font-family: Idroid;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p>a{
     color: black;
@@ -103,7 +103,7 @@ ul {
     width: 50%; 
     margin: auto;
 }
-@media(max-width: 500px){
+@media(min-width: 400px){
     .caixaduvida>h3{
         background-color: rgb(76, 180, 76);
     }
@@ -119,20 +119,4 @@ ul {
     main{
         margin:  30px;
     }
-}
-@media(max-width: 1270px){
-    .caixaduvida>h3{
-        background-color: rgb(76, 180, 76);
-        .caixaduvida{
-        padding: 0;
-        margin: 10px;
-        background-color: rgb(77, 207, 73);    }
-    iframe{
-        width: 400px;
-        margin: 10px;
-    }
-    main{
-        margin:  30px;
-    }
-}
 }
