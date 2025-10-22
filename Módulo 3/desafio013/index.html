@@ -14,20 +14,55 @@
     td{
         padding: 10px;
         border: 1px solid black;
-    }   
+    } 
+    td.infos{
+        background-color: rgba(0, 0, 0, 0.507);
+    }  
+    tbody > tr:nth-child(2n){
+        background-color: rgba(0, 0, 0, 0.253);
+    }
+    caption{
+        background-color: black;
+        color: white;
+        padding: 8px;
+    }
 </style>
 <body>
     <table><!-- Tabela -->
-        <tr><!--Linha da Tabela--> 
-           <td>Nome 1</td><!--Elemento da linha-->
-           <td>Nome 2</td>
-           <td>Nome 3</td>
-        </tr>
-        <tr>
-            <td>Nome 1</td>
-            <td>Nome 2</td>
-            <td>Nome 3 </td>
-        </tr>
+        <caption>Nomes dos Clientes</caption>
+        <thead>
+            <td class="infos">Id</td>
+            <td class="infos">Nome</td>
+            <td class="infos">Cep</td>
+        </thead>
+        <tbody>
+            <tr><!--Linha da Tabela-->
+               <td>1</td><!--Elemento da linha-->
+               <td>Pedro</td>
+               <td>96503000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Arthur</td>
+                <td>95630000 </td>
+            </tr>
+              <tr>
+                <td>3</td>
+                <td>Arthur</td>
+                <td>95630000 </td>
+            </tr>
+              <tr>
+                <td>4</td>
+                <td>Arthur</td>
+                <td>95630000 </td>
+            </tr>
+              <tr>
+                <td>5</td>
+                <td>Arthur</td>
+                <td>95630000 </td>
+            </tr>
+        </tbody>
+    
 
     </table>
 </body>
