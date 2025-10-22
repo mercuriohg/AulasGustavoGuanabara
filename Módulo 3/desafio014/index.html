@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tabelas</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 900px;
+    }
+    th,
+    td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+    thead th {
+      background: #f0f0f0;
+    }
+  </style>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Área</th>
+          <th>Disciplinas</th>
+
+          <th colspan="2">Notas</th>
+          <th>Média</th>
+        </tr>
+        <tr>
+          <th></th>
+          <!-- espaço para alinhar com "Área" -->
+          <th></th>
+          <!-- espaço para alinhar com "Disciplinas" -->
+          <th>Nota 1</th>
+          <!-- fica embaixo de "Notas" -->
+          <th>Nota 2</th>
+          <!-- fica embaixo de "Notas" -->
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="3">Exatas</th>
+          <td>Matématica</td>
+          <td>0,0</td>
+          <td>0,0</td>
+          <td>0,0</td>
+        </tr>
+        <tr>
+          <td>Física</td>
+          <td>0,0</td>
+          <td>0,0</td>
+          <td>0,0</td>
+        </tr>
+        <tr>
+          <td>Química</td>
+          <td>0,0</td>
+
+          <td>0,0</td>
+          <td>0,0</td>
+        </tr>
+        <th colspan="4">Média de Exatas</th>
+        <th>0.0</th>
+        <tr>
+          <th rowspan="2">Humanas</th>
+          <td>História</td>
+          <td>0,0</td>
+          <td>0,0</td>
+          <td>0,0</td>
+        </tr>
+        <tr>
+          <td>Geografia</td>
+          <td>0,0</td>
+          <td>0,0</td>
+          <td>0,0</td>
+        </tr>
+        <tr>
+          <th colspan="4">Média de Humanas</th>
+          <th>0.0</th>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
