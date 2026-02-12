@@ -12,11 +12,14 @@ body{
 }
 p{
     width: 80%; 
-    margin: 10px auto; 
+    margin: 10px auto 0 auto; 
     padding: 15px; 
     border-radius: 5px; 
     text-align: justify;
     line-height: 1.6; 
+}
+ul li{
+    text-align: left;
 }
 a{
     text-decoration: none;
@@ -25,7 +28,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-    margin: 30px;
+    margin: 10px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -42,15 +45,16 @@ nav{
     margin-top: 0;
 }
 main{
-    margin: 0 250px 0 250px;
-    padding: 0;
+    margin-left: 20%;
+    margin-right: 20% ;
     background-color: white;
     box-shadow: 2px 2px 7px 2px gray;
 }
 .alinha{
-    margin-top: 10px;
+    margin-top: 10px 0;
     text-align: center;
 }
+
 .estilo{
     margin:0px;
     text-align: center;
@@ -65,21 +69,23 @@ main{
     background-color: green;
 }
 .materia{
-    margin-top: 40px;
+    margin-top: 0;
+    padding-top: 20px;
 }
 a:hover{
     padding: 5px;
     background-color:rgb(35, 68, 35);
+    border-radius: 2px ;
+    transition: all 0.3s ease;
 }
-h3{
+h3.estilizacao{
     margin: 0;
-    padding: 0;
+    padding: 20px;
     color: white;
     background-color: rgb(76, 180, 76);
 }
 .caixaduvida{
-    margin:10px;
-    padding: 10px;
+    margin-top:20px;
     text-align: center;
     box-shadow: 3px 4px 8px gray;
     background-color: rgb(77, 207, 73);
@@ -88,6 +94,15 @@ footer{
     padding: 1px; 
     background-color: rgb(17, 221, 17);
     text-align: center;
+}
+#link-footer{
+    color: rgb(0, 0, 0);
+    margin-left: 0;
+
+}
+#link-footer:hover{
+    color: white;
+    border-radius: 3px;
 }
 iframe{
     box-shadow: 2px 2px 7px gray;
@@ -103,7 +118,7 @@ ul {
     width: 50%; 
     margin: auto;
 }
-@media(min-width: 400px){
+@media(max-width: 700px){
     .caixaduvida>h3{
         background-color: rgb(76, 180, 76);
     }
@@ -113,10 +128,11 @@ ul {
         background-color: rgb(77, 207, 73);
     }
     iframe{
-        width: 400px;
+        width: 90%;
         margin: 10px;
     }
     main{
-        margin:  30px;
+        margin: 0;
     }
+    
 }
